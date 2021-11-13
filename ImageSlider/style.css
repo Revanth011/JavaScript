@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-img .images {
+    height: 100%;
+    width: 100%;
+}
+
+.header-img .images img {
+    height: 100%;
+    width: 100%;
+}
+
+.header-img .slide {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 25px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.header-img .slide:hover {
+    color: rgb(233, 233, 233);
+}
+
+.header-img .right {
+    right: 0;
+}
